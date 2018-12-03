@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
+    <string name="logo_description">Tic tac toe\'s logo</string>
+    <string name="credit">One app, one game. Made by Alan Thorigny for Android exam on Dec 3rd.</string>
+    <string name="instruction">Please enter your name:</string>
+    <string name="name">Name</string>
+    <string name="startButton">Start</string>
+    <string name="madeAt">Made at</string>
+    <string name="epitaLogoDescription">Epita\'s logo</string>
+    <string name="playerName">Player\'s name</string>
+    <string name="thumbs">Thumbs</string>
+    <string name="date">Date</string>
+    <string name="turn">Player turn :</string>
+    <string name="guest">X (Guest)</string>
+    <string name="player">O (Player)</string>
 </resources>
