@@ -35,7 +35,7 @@ class GameActivity : AppCompatActivity() {
         botMid = 100
         botRight = 100
         caseTopLeft.setOnClickListener {
-            if (topLeft != 100) {
+            if (topLeft == 100) {
                 val case : TextView = findViewById(R.id.caseTopLeft)
                 case.text = getTurn()
                 topLeft = turn
@@ -45,7 +45,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseTopMid.setOnClickListener {
-            if (topMid != 100) {
+            if (topMid == 100) {
                 val case : TextView = findViewById(R.id.caseTopMid)
                 case.text = getTurn()
                 topMid = turn
@@ -55,7 +55,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseTopRight.setOnClickListener {
-            if (topRight != 100) {
+            if (topRight == 100) {
                 val case : TextView = findViewById(R.id.caseTopRight)
                 case.text = getTurn()
                 topRight = turn
@@ -65,7 +65,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseMidLeft.setOnClickListener {
-            if (midLeft != 100) {
+            if (midLeft == 100) {
                 val case : TextView = findViewById(R.id.caseMidLeft)
                 case.text = getTurn()
                 midLeft = turn
@@ -75,7 +75,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseMidMid.setOnClickListener {
-            if (midMid != 100) {
+            if (midMid == 100) {
                 val case : TextView = findViewById(R.id.caseMidMid)
                 case.text = getTurn()
                 midMid = turn
@@ -85,7 +85,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseMidRight.setOnClickListener {
-            if (midRight != 100) {
+            if (midRight == 100) {
                 val case : TextView = findViewById(R.id.caseMidRight)
                 case.text = getTurn()
                 midRight = turn
@@ -95,7 +95,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseBotLeft.setOnClickListener {
-            if (botLeft != 100) {
+            if (botLeft == 100) {
                 val case : TextView = findViewById(R.id.caseBotLeft)
                 case.text = getTurn()
                 botLeft = turn
@@ -105,7 +105,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseBotMid.setOnClickListener {
-            if (botMid != 100) {
+            if (botMid == 100) {
                 val case : TextView = findViewById(R.id.caseBotMid)
                 case.text = getTurn()
                 botMid = turn
@@ -115,7 +115,7 @@ class GameActivity : AppCompatActivity() {
             }
         }
         caseBotRight.setOnClickListener {
-            if (botRight != 100) {
+            if (botRight == 100) {
                 val case : TextView = findViewById(R.id.caseBotRight)
                 case.text = getTurn()
                 botRight = turn
